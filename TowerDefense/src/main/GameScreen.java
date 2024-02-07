@@ -10,6 +10,8 @@ public class GameScreen extends JPanel {
 
     private Random random;
     private BufferedImage img;
+    private long lastTime;
+    private int frames;
 
     private ArrayList<BufferedImage> sprites = new ArrayList<>();
 
@@ -19,6 +21,8 @@ public class GameScreen extends JPanel {
         loadSprites();  
         
         random = new Random();
+
+
 
     }
 
@@ -48,6 +52,8 @@ public class GameScreen extends JPanel {
         }
 
     }
+
+
 
     private int getRndInt() {
         return random.nextInt(100);
