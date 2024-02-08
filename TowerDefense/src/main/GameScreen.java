@@ -2,9 +2,6 @@ package main;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.Random;
 
 public class GameScreen extends JPanel {
 
