@@ -32,6 +32,11 @@ public class Render {
             case SETTINGS:
                 game.getSettings().render(g);
                 break;
+            case EDIT:
+                game.getEditor().render(g);
+                break;
+            default:
+                break;
 
         }
 
